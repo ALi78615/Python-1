@@ -1,0 +1,15 @@
+# Create an empty dictionary to store user information
+user = {}
+
+# Get user input and store it in the dictionary
+user["name"] = input("What is the user's name? ")
+user["age"] = input("What is the user's age? ")
+user["country_of_birth"] = input("What is the user's country of birth? ")
+user["known_for"] = input("What is the user known for? ")
+
+# Print the stored user information
+print("\nUser Information:")
+print("Name:", user["name"])
+print("Age:", user["age"])
+print("Country of Birth:", user["country_of_birth"])
+print("Known for:", user["known_for"])
