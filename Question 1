@@ -1,0 +1,21 @@
+# Define the tuple
+myfamily = ("mother", "father", "sister", "brother", "sister")
+
+# 1. Check the type of myfamily
+print("Type of myfamily:", type(myfamily))
+
+# 2. Access tuple item "sister" by using index numbers
+print("First sister:", myfamily[2])
+print("Second sister:", myfamily[4])
+
+# 3. Check if we can add an item using append()
+try:
+    myfamily.append("me")
+except AttributeError as e:
+    print("Error:", e)
+
+# 4. Check if we can remove an item using pop()
+try:
+    myfamily.pop()
+except AttributeError as e:
+    print("Error:", e)
